@@ -54,6 +54,25 @@
             padding: 1rem;
             margin-top: 2rem;
         }
+        .election-section {
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 2rem;
+        }
+        .candidate {
+            background-color: #f9f9f9;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            width: 45%;
+            text-align: center;
+        }
+        .picture {
+            height: 150px;
+            background-color: #ddd;
+            margin-top: 1rem;
+            border-radius: 5px;
+        }
     </style>
 </head>
 <body>
@@ -70,9 +89,50 @@
 </nav>
 
 <main>
+    
+    <section id="election-candidates">
+        <h2>Current Election Candidates</h2>
+        <h3>Student Body President / Vice President Election</h3>
+        <div class="election-section">
+            <div class="ticket" style="display: flex; justify-content: space-around;">
+                <div class="candidate">
+                    <h4>Ticket 1</h4>
+                    <p><strong>Candidate Name:</strong> Karina Syrota</p>
+                    <p><strong>Vice President Name:</strong> Matthew Fox </p>
+                    <p><strong>Platform:</strong> [Brief description of their platform]</p>
+                    <div class="picture">[Space for a picture of the ticket]</div>
+                </div>
+                <div class="candidate">
+                    <h4>Ticket 2</h4>
+                    <p><strong>Candidate Name:</strong> Ethan Solury</p>
+                    <p><strong>Vice President Name:</strong> Sarah Catazone</p>
+                    <p><strong>Platform:</strong> [Brief description of their platform]</p>
+                    <div class="picture">[Space for a picture of the ticket]</div>
+                </div>
+            </div>
+        </div>
+        <h3>Class of 2027 President Election</h3>
+        <div class="election-section">
+            <div class="candidate">
+                <h4>Candidate 1</h4>
+                <p><strong>Candidate Name:</strong> Kyla Sevim</p>
+                <p><strong>Platform:</strong> [Brief description of their platform]</p>
+                <div class="picture">[Space for a picture of the candidate]</div>
+            </div>
+            <div class="candidate">
+                <h4>Candidate 2</h4>
+                <p><strong>Candidate Name:</strong> Christopher DeVizio</p>
+                <p><strong>Platform:</strong> [Brief description of their platform]</p>
+                <div class="picture">[Space for a picture of the candidate]</div>
+            </div>
+        </div>
+    </section>
+
     <section id="about">
         <h2>About Us</h2>
-        <p>Welcome to the official Student Government Association (SGA) website. We are dedicated to advocating for the needs of students, enhancing campus life, and fostering communication between students and university administration.</p>
+        <p>Welcome to the official Student Government Association (SGA) website. We are dedicated to advocating for the
+            needs of students, enhancing campus life, and fostering communication between students and university
+            administration.</p>
     </section>
 
     <section id="documents">
