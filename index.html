@@ -68,16 +68,20 @@
             text-align: center;
         }
         .picture {
-            height: 150px;
+            height: auto; /* Change height to auto for better containment */
             background-color: #ddd;
             margin-top: 1rem;
             border-radius: 5px;
+            display: flex; /* Use flexbox to align images properly */
+            justify-content: center; /* Center images horizontally */
+            flex-wrap: wrap; /* Allow images to wrap if necessary */
         }
         .picture img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            border-radius: 0%;
+            width: 100px; /* Set a fixed width for images */
+            height: 100px; /* Set a fixed height for images */
+            object-fit: cover; /* Ensure images cover the area without distortion */
+            border-radius: 5px; /* Add border radius for a consistent look */
+            margin: 0 5px; /* Add margin between images */
         }
     </style>
 </head>
@@ -99,6 +103,7 @@
     <section id="election-candidates">
         <h2>Current Election Candidates</h2>
         <h3>Student Body President / Vice President Election</h3>
+        <h3><a href="https://sgavoting.it.marist.edu/" target="_blank">CLICK HERE TO VOTE</a></h3>
         <div class="election-section">
             <div class="ticket" style="display: flex; justify-content: space-around;">
                 <div class="candidate">
@@ -139,6 +144,8 @@
             </div>
         </div>
         <h3>Class of 2027 President Election</h3>
+        <h3><a href="https://sgavoting.it.marist.edu/" target="_blank">CLICK HERE TO VOTE</a></h3>
+
         <div class="election-section">
             <div class="candidate">
                 <h4>Candidate 1</h4>
